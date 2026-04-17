@@ -1,0 +1,11 @@
+helm:
+  parameters:
+  - name: app.contextPath
+    value: /tp11
+    forcestring: false
+  - name: image.name
+    value: ghcr.io/suresnes120/spring-petclinic
+    forcestring: true
+  - name: image.tag
+    value: 4.0.4
+    forcestring: true
